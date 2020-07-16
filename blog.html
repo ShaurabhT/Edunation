@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title> EDUNATION</title>
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:700%7CMontserrat:400,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+
+		<!-- Header -->
+		<header id="header" class="transparent-nav">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a class="logo" href="www.edunation.com">
+							<img src="./img/logo-alt.png" alt="logo"  >
+						</a>
+					</div>
+					<!-- /Logo -->
+
+					<!-- Mobile toggle -->
+					<button class="navbar-toggle">
+						<span></span>
+					</button>
+					<!-- /Mobile toggle -->
+				</div>
+
+				<!-- Navigation -->
+				<nav id="nav">
+					<ul class="main-menu nav navbar-nav navbar-right">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="courses.html">Courses</a></li>
+						<li><a href="Gpa.html">GPA</a></li>
+						<li><a href="chat/src/chat.html">Chat</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="EventsMain.html">Events</a></li>
+						<li><a href="contact.html">Contact</a></li>	
+						<li><a href="about.html">About</a></li>
+						<li><a href="Login/login.html">Login </a></li>
+					</ul>
+				</nav>
+				<!-- /Navigation -->
+
+			</div>
+		</header>
+		<!-- /Header -->
+
+		<!-- Home -->
+		<div id="home" class="hero-area">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/home-background.jpg)"></div>
+			<!-- /Backgound Image -->
+
+			<div class="home-wrapper">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8">
+							<h1 class="white-text">Edunation Free Online Training Courses</h1>
+							<p class="lead white-text">Champion their potential.
+								Online training is a modern way of learning by the use of electronic media and information and communication technologies. Students, for whom it is infeasible to travel to our institute, nevertheless wish to acquire the training can benefit from our online-training facility. Candidates who are working full-time or who live abroad may make the best use of our online service. </p>
+							<a class="main-button icon-button" href="courses.html">Get Started!</a>
+							
+								</div>
+							</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- /Home -->
+		<head>
+			<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+			<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+			<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+			<!------ Include the above in your HEAD tag ---------->
+			<br>
+			<h1><p style="text-align:center ;color: orangered">Problem</p></h1>
+			<br>
+			<br>
+			<br>
+			<div class="container">
+				<div class="post-comments">
+					<form>
+						<div class="form-group">
+							
+							<textarea name="comment" class="form-control" rows="11" >
+								Example Of Python
+								#Importing the modules
+															
+								import sys
+								import urllib2
+								import re
+								import json
+								
+								#Ask for movie title
+								title = raw_input("Please enter a movie title: ")
+								
+								#Ask for which year
+								year = raw_input("which year? ")
+								
+								#Search for spaces in the title string
+								raw_string = re.compile(r' ')
+								
+								#Replace spaces with a plus sign
+								searchstring = raw_string.sub('+', title)
+								
+								#Prints the search string
+								print searchstring
+								
+								#The actual query
+								url = "http://www.imdbapi.com/?t=" + searchstring + "&y="+year
+								
+								request = urllib2.Request(url)
+								
+								response = json.load(urllib2.urlopen(request))
+								
+								print json.dumps(response,indent=2)</textarea>
+							
+						</div>
+						
+					</form>
+					
+			
+					<div class="comments-nav">
+						<ul class="nav nav-pills">
+							<li role="presentation" class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+												there are 2593 comments <span class="caret"></span>
+											</a>
+								<ul class="dropdown-menu">
+									<li><a href="#">Best</a></li>
+									<li><a href="#">Hot</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+			
+					<div class="row">
+			
+						<div class="media">
+							<!-- first comment -->
+			
+							<div class="media-heading">
+								<button class="btn btn-default btn-xs" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Ram</span>  12 hours ago
+							</div>
+			
+							<div class="panel-collapse collapse in" id="collapseOne">
+			
+								<div class="media-left">
+									<div class="vote-wrap">
+										<div class="save-post">
+										
+										</div>
+										<div class="vote up">
+											<i class="glyphicon glyphicon-menu-up"></i>
+										</div>
+										<div class="vote inactive">
+											<i class="glyphicon glyphicon-menu-down"></i>
+										</div>
+									</div>
+									<!-- vote-wrap -->
+								</div>
+								<!-- media-left -->
+			
+			
+								<div class="media-body">
+									<p>Berkeley CS 61B Data Structures, with Josh Hug.
+
+										One of the best teachers I've seen, esp for Data Structures. Super intelligent, and has an interesting personality too. Makes coding look easy. Watched his classes before I took Data Structures and it made my semester so easy. Completely free too:
+										
+										https://sp18.datastructur.es/</p>
+									<div class="comment-meta">
+										<span><a href="#">delete</a></span>
+										<span><a href="#">report</a></span>
+										<span><a href="#">hide</a></span>
+										<span>
+															<a class="" role="button" data-toggle="collapse" href="#replyCommentT" aria-expanded="false" aria-controls="collapseExample">reply</a>
+														</span>
+										<div class="collapse" id="replyCommentT">
+											<form>
+												<div class="form-group">
+													<label for="comment">Your Comment</label>
+													<textarea name="comment" class="form-control" rows="3"></textarea>
+												</div>
+												<button type="submit" class="btn btn-default">Send</button>
+											</form>
+										</div>
+									</div>
+									<!-- comment-meta -->
+			
+									<div class="media">
+										<!-- answer to the first comment -->
+			
+										<div class="media-heading">
+											<button class="btn btn-default btn-collapse btn-xs" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Ram</span> 11.5hrs ago
+										</div>
+			
+										<div class="panel-collapse collapse in" id="collapseTwo">
+			
+											<div class="media-left">
+												<div class="vote-wrap">
+													<div class="save-post">
+														
+													</div>
+													<div class="vote up">
+														<i class="glyphicon glyphicon-menu-up"></i>
+													</div>
+													<div class="vote inactive">
+														<i class="glyphicon glyphicon-menu-down"></i>
+													</div>
+												</div>
+												<!-- vote-wrap -->
+											</div>
+											<!-- media-left -->
+			
+			
+											<div class="media-body">
+												<p>I'm doing a CS program right now and will look into this for future internship interviews. What about 61A? Would I be missing out on much if I skip right to data structures? I also haven't taken algorithms yet...</p>
+												<div class="comment-meta">
+													<span><a href="#">delete</a></span>
+													<span><a href="#">report</a></span>
+													<span><a href="#">hide</a></span>
+																	<span>
+																		<a class="" role="button" data-toggle="collapse" href="#replyCommentThree" aria-expanded="false" aria-controls="collapseExample">reply</a>
+																	</span>
+													<div class="collapse" id="replyCommentThree">
+														<form>
+															<div class="form-group">
+																<label for="comment">Your Comment</label>
+																<textarea name="comment" class="form-control" rows="3"></textarea>
+															</div>
+															<button type="submit" class="btn btn-default">Send</button>
+														</form>
+													</div>
+												</div>
+												<!-- comment-meta -->
+											</div>
+										</div>
+										<!-- comments -->
+			
+									</div>
+									<!-- answer to the first comment -->
+			
+								</div>
+							</div>
+							<!-- comments -->
+			
+						</div>
+						<!-- first comment -->
+						<div class="media">
+							<!-- first comment -->
+			
+							<div class="media-heading">
+								<button class="btn btn-default btn-xs" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Shyam</span> 11 hr ago.
+							</div>
+			
+							<div class="panel-collapse collapse in" id="collapseThree">
+			
+								<div class="media-left">
+									<div class="vote-wrap">
+										<div class="save-post">
+											
+										</div>
+										<div class="vote up">
+											<i class="glyphicon glyphicon-menu-up"></i>
+										</div>
+										<div class="vote inactive">
+											<i class="glyphicon glyphicon-menu-down"></i>
+										</div>
+									</div>
+									<!-- vote-wrap -->
+								</div>
+								<!-- media-left -->
+			
+			
+								<div class="media-body">
+									<p>I like how sometimes he'll play indy music as an intro to the class. His linkedin is funny too.
+
+										He literally has bear wrestler as an occupation:
+										
+												There are many bears at the zoo. Sometimes they get out of line. In these instances, normal zoo personnel are trained to utilize food or tranquilizers. When these measures fail, I am called in to physically restrain the bear and calm it with beautiful songs that I sing.
+										
+										https://www.linkedin.com/in/josh-hug-b0631933/</p>
+									<div class="comment-meta">
+										<span><a href="#">delete</a></span>
+										<span><a href="#">report</a></span>
+										<span><a href="#">hide</a></span>
+										<span>
+															<a class="" role="button" data-toggle="collapse" href="#replyCommentFour" aria-expanded="false" aria-controls="collapseExample"></a>
+														</span>
+										<div class="collapse" id="replyCommentFour">
+											<form>
+												<div class="form-group">
+													<label for="comment">comment</label>
+													<textarea name="comment" class="form-control" rows="3"></textarea>
+												</div>
+												<button type="submit" class="btn btn-default">share</button>
+											</form>
+										</div>
+									</div>
+									<!-- comment-meta -->
+			
+									<div class="media">
+										<!-- answer to the first comment -->
+			
+										<div class="media-heading">
+											<button class="btn btn-default btn-collapse btn-xs" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Gopal</span> 10 hr ago.
+										</div>
+			
+										<div class="panel-collapse collapse in" id="collapseFour">
+			
+											<div class="media-left">
+												<div class="vote-wrap">
+													<div class="save-post">
+														<
+													</div>
+													<div class="vote up">
+														<i class="glyphicon glyphicon-menu-up"></i>
+													</div>
+													<div class="vote inactive">
+														<i class="glyphicon glyphicon-menu-down"></i>
+													</div>
+												</div>
+												<!-- vote-wrap -->
+											</div>
+											<!-- media-left -->
+			
+			
+											<div class="media-body">
+												<p>His React course is also very good for someone new to React and follows a similar format. I wish I had it when I was first learning React as it is the clearest introduction I've found. It also works as a means of introducing some other things that are super common in javascript development like babel transpiling and webpack that I feel are not commonly explained or just taken for granted.</p>
+												<div class="comment-meta">
+													<span><a href="#">delete</a></span>
+													<span><a href="#">report</a></span>
+													<span><a href="#">hide</a></span>
+													<span>
+																		<a class="" role="button" data-toggle="collapse" href="#replyCommentFive" aria-expanded="false" aria-controls="collapseExample"></a>
+																	</span>
+													<div class="collapse" id="replyCommentFive">
+														<form>
+															<div class="form-group">
+																<label for="comment"></label>
+																<textarea name="comment" class="form-control" rows="3"></textarea>
+															</div>
+															<button type="submit" class="btn btn-default">Yolla</button>
+														</form>
+													</div>
+												</div>
+												<!-- comment-meta -->
+			
+												<div class="media">
+													<!-- first comment -->
+			
+													<div class="media-heading">
+														<button class="btn btn-default btn-xs" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Hari</span> 11.5hrs ago
+													</div>
+			
+													<div class="panel-collapse collapse in" id="collapseFive">
+			
+														<div class="media-left">
+															<div class="vote-wrap">
+																<div class="save-post">
+																	
+																</div>
+																<div class="vote up">
+																	<i class="glyphicon glyphicon-menu-up"></i>
+																</div>
+																<div class="vote inactive">
+																	<i class="glyphicon glyphicon-menu-down"></i>
+																</div>
+															</div>
+															<!-- vote-wrap -->
+														</div>
+														<!-- media-left -->
+			
+			
+																<div class="media-body">
+																<p>As someone mentioned, this article is with old OANDA API. You may refer to this link for examples of the V2 API: https://github.com/oanda/oandapy/issues/41.</p>
+																<div class="comment-meta">
+																<span><a href="#">delete</a></span>
+																<span><a href="#">report</a></span>
+																<span><a href="#">hide</a></span>
+																<span>
+																<a class="" role="button" data-toggle="collapse" href="#replyCommentSix" aria-expanded="false" aria-controls="collapseExample"></a>
+																</span>
+																<div class="collapse" id="replyCommentSix">
+																	<form>
+																		<div class="form-group">
+																			<label for="comment"></label>
+																			<textarea name="comment" class="form-control" rows="3"></textarea>
+																		</div>
+																		<button type="submit" class="btn btn-default"></button>
+																	</form>
+																</div>
+															</div>
+															<!-- comment-meta -->
+			
+															<div class="media">
+																<!-- answer to the first comment -->
+			
+																<div class="media-heading">
+																	<button class="btn btn-default btn-collapse btn-xs" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseExample"><span class="glyphicon glyphicon-minus" aria-hidden="true"></span></button> <span class="label label-info">Krishna</span> 
+																</div>
+			
+																<div class="panel-collapse collapse in" id="collapseSix">
+			
+																	<div class="media-left">
+																		<div class="vote-wrap">
+																			<div class="save-post">
+																				
+																			</div>
+																			<div class="vote up">
+																				<i class="glyphicon glyphicon-menu-up"></i>
+																			</div>
+																			<div class="vote inactive">
+																				<i class="glyphicon glyphicon-menu-down"></i>
+																			</div>
+																		</div>
+																		<!-- vote-wrap -->
+																	</div>
+																	<!-- media-left -->
+			
+			
+																	<div class="media-body">
+																		<p>It throwing error :
+
+																			AttributeError: module 'oandapy' has no attribute 'API'</p>
+																		<div class="comment-meta">
+																			<span><a href="#">delete</a></span>
+																			<span><a href="#">report</a></span>
+																			<span><a href="#">hide</a></span>
+																			<span>
+																		<a class="" role="button" data-toggle="collapse" href="#replyCommentOne" aria-expanded="false" aria-controls="collapseExample"></a>
+																	</span>
+																			<div class="collapse" id="replyCommentOne">
+																				<form>
+																					<div class="form-group">
+																						<label for="comment">Yorumunuz</label>
+																						<textarea name="comment" class="form-control" rows="3"></textarea>
+																					</div>
+																					<button type="submit" class="btn btn-default">Yolla</button>
+																				</form>
+																			</div>
+																		</div>
+																			<!-- comment-meta -->
+																		<div class="post-comments">
+																		
+			
+			
+																	</div>
+																</div>
+																<!-- comments -->
+			
+															</div>
+															<!-- answer to the first comment -->
+			
+														</div>
+													</div>
+													<!-- comments -->
+			
+												</div>
+												<!-- first comment -->
+											</div>
+										</div>
+										<!-- comments -->
+			
+									</div>
+									<!-- answer to the first comment -->
+			
+								</div>
+							</div>
+							<!-- comments -->
+			
+						</div>
+						<!-- first comment -->
+					</div>
+			
+				</div>
+				<!-- post-comments -->
+				<form>
+					<div class="form-group">
+						<label for="comment">Your Comment</label>
+						<textarea name="comment" class="form-control" rows="3"></textarea>
+					</div>
+					<button type="submit" class="btn btn-default">Send</button>
+				</form> 
+			</div>
+			</head>
+	
+
+		
+
+	
+
+		
+
+		<!-- Contact CTA -->
+		<div id="contact-cta" class="section">
+
+			<!-- Backgound Image -->
+			<div class="bg-image bg-parallax overlay" style="background-image:url(./img/cta2-background.jpg)"></div>
+			<!-- Backgound Image -->
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<h2 class="white-text">Contact Us</h2>
+						<p class="lead white-text"> Submit a request and we’ll get back to you as soon as possible.</p>
+						<a class="main-button icon-button" href="contact.html">Contact Us Now</a>
+					</div>
+
+				</div>
+				<!-- /row -->
+
+			</div>
+			<!-- /container -->
+
+		</div>
+		<!-- /Contact CTA -->
+
+		<!-- Footer -->
+		<footer id="footer" class="section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+
+					<!-- footer logo -->
+					<div class="col-md-6">
+						<div class="footer-logo">
+							<a class="logo" href="index.html">
+								<img src="./img/logoinvert.png" alt="logo" >
+							</a>
+						</div>
+					</div>
+					<!-- footer logo -->
+
+					<!-- footer nav -->
+					<div class="col-md-6">
+						<ul class="footer-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="courses.html">Courses</a></li>
+								<li><a href="Gpa.html">GPA</a></li>
+								<li><a href="chat/src/chat.html">Chat</a></li>
+								<li><a href="blog.html">Blog</a></li>
+								<li><a href="EventsMain.html">Events</a></li>
+								<li><a href="contact.html">Contact</a></li>	
+								<li><a href="about.html">About</a></li>
+								<li><a href="Login/login.html">Login </a></li>
+						</ul>
+					</div>
+					<!-- /footer nav -->
+
+				</div>
+				<!-- /row -->
+
+				<!-- row -->
+				<div id="bottom-footer" class="row">
+
+					<!-- social -->
+					<div class="col-md-4 col-md-push-8">
+						<ul class="footer-social">
+							<li><a href="www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="www.twitter.com" class="twitter"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="www.googledrive.com" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+							<li><a href="www.instagram.com	" class="instagram"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="www.youtube.con" class="youtube"><i class="fa fa-youtube"></i></a></li>
+							<li><a href="www.linkedin.com" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+						</ul>
+					</div>
+					<!-- /social -->
+
+					<!-- copyright -->
+					<div class="col-md-8 col-md-pull-4">
+						<div class="footer-copyright">
+							<span>&copy; Copyright 2018. All Rights Reserved. </i> by <a href="https://www.edunation.com">EDUNATION</a></span>
+						</div>
+					</div>
+					<!-- /copyright -->
+
+				</div>
+				<!-- row -->
+
+			</div>
+			<!-- /container -->
+
+		</footer>
+		<!-- /Footer -->
+
+		<!-- preloader -->
+		<div id='preloader'><div class='preloader'></div></div>
+		<!-- /preloader -->
+
+
+		<!-- jQuery Plugins -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+
+	</body>
+</html>
